@@ -1,0 +1,6 @@
+interface:
+  display_name: "LLM Wiki Explain"
+  short_description: "Explain terms through your reusable LLM wiki"
+  default_prompt: "Use $llm-wiki-explain to explain this term in a separate task, reuse my wiki, and archive the result."
+policy:
+  allow_implicit_invocation: true
